@@ -1,0 +1,211 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "features": "Features",
+    "services": "Services",
+    "faq": "FAQ",
+    "howToUse": "How to Use",
+    "testimonial": "Testimonial",
+    "contact": "Contact"
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "english": "English",
+    "arabic": "العربية"
+  },
+  "hero": {
+    "title": "Welcome to Fuel Up",
+    "description": "Streamline your fleet operations across the Kingdom with real-time tracking, fraud prevention, and automated fuel management. Join leading Saudi businesses optimizing their logistics today.",
+    "buttonPrimary": "Join us",
+    "buttonSecondary": "Learn More"
+  },
+  "services": {
+    "badge": "Easy To Use",
+    "title": "World-Class",
+    "titleHighlight": "SERVICES",
+    "imageAlt": "Electric Vehicle Charging Station",
+    "items": {
+      "accessibility": {
+        "title": "Accessibility Anywhere",
+        "description": "Access your dashboard from Riyadh to Jeddah. Keep your team connected whether they are in the office or on the road."
+      },
+      "safety": {
+        "title": "Safety from Fraud",
+        "description": "Advanced security algorithms monitor transactions to detect irregularities and prevent fuel fraud immediately."
+      },
+      "monitoring": {
+        "title": "Monitoring Consumption",
+        "description": "Track every liter of Petrol 91/95 or Diesel with precision analytics to optimize routes and reduce waste."
+      },
+      "control": {
+        "title": "Control multiple vehicles",
+        "description": "Manage permissions, spending limits, and fuel types for your entire fleet from a single centralized account."
+      }
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "heading": "Smart analytics for the Saudi Market",
+    "subtitle": "Powerful, self-serve product and growth analytics to help you scale efficiently in line with Vision 2030 goals. Trusted by over 4,000 companies.",
+    "buttonText": "Learn More",
+    "item1": {
+      "title": "Admin Panel",
+      "description": "Whether you have a team of 2 or 200, our centralized dashboard keeps your operations aligned.",
+      "bullet1": "Real-time fleet monitoring across all Saudi regions.",
+      "bullet2": "Comprehensive user role management and permissions.",
+      "bullet3": "Automated VAT-compliant expense reporting."
+    },
+    "item2": {
+      "title": "Gas Station Dashboard",
+      "description": "Manage all your smart methods with unlimited group capability. Connect teams ranging from 2 to 100 people.",
+      "bullet1": "Filter, export, and drill-down on data quickly.",
+      "bullet2": "Save, schedule, and automate reports to your inbox.",
+      "bullet3": "Integrate seamlessly with your existing ERP tools."
+    },
+    "item3": {
+      "title": "Customer Dashboard",
+      "description": "Empower your clients with transparency and control over their fuel consumption.",
+      "bullet1": "View detailed transaction history instantly.",
+      "bullet2": "Manage payment methods (Mada, Visa, MasterCard).",
+      "bullet3": "Download ZATCA-compliant e-invoices effortlessly."
+    },
+    "item4": {
+      "title": "Operation & Driver Apps",
+      "description": "An all-in-one platform helping drivers and station operators stay efficient.",
+      "bullet1": "Easy QR code scanning for contactless payments.",
+      "bullet2": "Secure driver verification and authentication.",
+      "bullet3": "Instant digital receipts and transaction logging."
+    }
+  },
+  "Footer": {
+    "companyDescription": "Streamline your fleet operations with real-time tracking, fraud prevention, and automated fuel management.",
+    "siteMapTitle": "Site Map",
+    "siteMap": {
+      "home": "Home",
+      "aboutUs": "About Us",
+      "service": "Service",
+      "ourClient": "Our Clients",
+      "getQuote": "Get a Quotation",
+      "process": "Process"
+    },
+    "contactTitle": "Contact Us",
+    "contact": {
+      "tradeStyle": "Trade Style",
+      "address": "Address",
+      "addressValue": "Level 18, Al Faisaliah Tower, King Fahd Rd, Riyadh 12212, KSA",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "productsTitle": "Our Products",
+    "products": {
+      "appStore": {
+        "upper": "Download on the",
+        "lower": "App Store"
+      },
+      "appGallery": {
+        "upper": "EXPLORE IT ON",
+        "lower": "AppGallery"
+      },
+      "googlePlay": {
+        "upper": "GET IT ON",
+        "lower": "Google Play"
+      }
+    },
+    "copyright": "© 2025 FUELUP. All Rights Reserved."
+  },
+  "featuresCarousel": {
+    "badge": "FEATURES",
+    "heading": " FEATURES",
+    "subtitle": "Everything you need to know about our services and capabilities",
+    "learnMore": "Learn More",
+    "item1": {
+      "title": "Accessibility Anywhere",
+      "description": "Access your fleet management system from anywhere in the Kingdom via our cloud-based platform."
+    },
+    "item2": {
+      "title": "Control multiple vehicles",
+      "description": "Manage and monitor all your vehicles in one unified dashboard with real-time tracking."
+    },
+    "item3": {
+      "title": "Monitoring Consumption",
+      "description": "Track fuel consumption and optimize your fleet efficiency with detailed analytics and reports."
+    },
+    "item4": {
+      "title": "Safety from Fraud",
+      "description": "Protect your fleet with advanced security features and fraud detection mechanisms."
+    }
+  },
+  "mobileApp": {
+    "title": "We also have a Mobile App!",
+    "description": "Manage your business on the go directly from your mobile phone.",
+    "buttonPrimary": "Get App",
+    "buttonSecondary": "Learn More",
+    "appTitle": "Fuel",
+    "chooseYourFuel": "Choose Your Fuel",
+    "enterVehicleNumber": "Enter Vehicle Number",
+    "vehicleNumberPlaceholder": "Enter Number",
+    "scanQRCode": "Scan QR Code",
+    "enterDriverData": "Enter Driver Data",
+    "pinCodePlaceholder": "Pin Code"
+  },
+  "FAQ": {
+    "title": "Frequently asked",
+    "titleHighlight": "QUESTIONS",
+    "subtitle": "Everything you need to know about the product and billing.",
+    "question1": "Is there a free trial available?",
+    "answer1": "Yes, we offer a 14-day free trial for all new users. No credit card required to start. You'll have full access to all features during the trial period.",
+    "question2": "How do I update my billing information?",
+    "answer2": "You can update your billing info in Account Settings. Go to Billing > Payment Method. We support updates for VAT certificates and company details.",
+    "question3": "What payment methods do you accept?",
+    "answer3": "We accept Mada, Visa, Mastercard, American Express, and bank transfers for annual plans. All payments are processed securely.",
+    "question4": "Are your invoices ZATCA compliant?",
+    "answer4": "Yes, all our invoices are fully compliant with Saudi ZATCA e-invoicing regulations (Phase 1 & 2).",
+    "stillHaveQuestions": "Still have questions?",
+    "stillHaveQuestionsSubtitle": "Can't find the answer you're looking for? Please chat to our friendly team.",
+    "getInTouch": "Get in touch"
+  },
+  "contact": {
+    "heading": "Get in touch",
+    "subtitle": "We'd love to hear from you. Our friendly team is always here to chat.",
+    "chatTitle": "Chat to us",
+    "chatDescription": "Our support team is here to help.",
+    "chatEmail": "hi@fuelup.sa",
+    "officeTitle": "Office",
+    "officeDescription": "Visit us at our Riyadh HQ.",
+    "officeAddress": "Al Faisaliah Tower, King Fahd Rd",
+    "officeCity": "Riyadh 12212, KSA",
+    "phoneTitle": "Phone",
+    "phoneHours": "Sun-Thu from 8am to 5pm.",
+    "phoneNumber": "+966 11 000 0000",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "First Name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Last Name",
+    "email": "Email",
+    "emailPlaceholder": "name@fuelup.sa",
+    "formPhoneLabel": "Phone Number",
+    "phonePlaceholder": "050 000 0000",
+    "message": "Message",
+    "messagePlaceholder": "Leave us a message...",
+    "agreeText": "You agree to our friendly ",
+    "privacyPolicy": "privacy policy",
+    "submitButton": "Send message"
+  },
+  "testimonial": {
+    "item1": {
+      "name": "Tareq Aly",
+      "role": "Owner of Al Amal Transport",
+      "quote": "We've really sped up our workflow using Fuel Up across our Riyadh fleet and haven't looked back."
+    },
+    "item2": {
+      "name": "Ahmed Hassan",
+      "role": "Operations Manager, Gulf Fuels",
+      "quote": "The platform has transformed how we manage our fleet operations and ZATCA reporting."
+    },
+    "item3": {
+      "name": "Fatima Al-Saud",
+      "role": "CEO, Premium Logistics",
+      "quote": "Outstanding local support and features that have significantly improved our efficiency and profitability."
+    }
+  }
+}
