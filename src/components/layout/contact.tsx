@@ -185,7 +185,7 @@ export function Contact() {
             </div>
 
             {/* Social Icons */}
-            <div className="flex gap-4 pt-6">
+            {/* <div className="flex gap-4 pt-6">
               {[Facebook, Twitter, Linkedin, Youtube, Globe].map((Icon, i) => (
                 <a
                   key={i}
@@ -195,7 +195,7 @@ export function Contact() {
                   <Icon className="w-5 h-5 text-gray-600" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
 

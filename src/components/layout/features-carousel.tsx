@@ -45,7 +45,7 @@ export function FeaturesCarousel() {
   const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi])
 
   return (
-    <section className="w-full py-12 md:py-24 bg-gradient-to-b from-[#F9FCFB] to-[#F1FDEA]">
+    <section id="main-features" className="w-full py-12 md:py-24 bg-gradient-to-b from-[#F9FCFB] to-[#F1FDEA]">
       <div className="container mx-auto px-4 md:px-6" dir={isRTL ? "rtl" : "ltr"}>
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">{t("heading")}</h2>
@@ -83,8 +83,8 @@ export function FeaturesCarousel() {
                           "#3b82f6",
                       }}
                     >
-                      <span className="transition-all duration-300">{t("learnMore")}</span>
-                      <span className="ml-2 transition-all duration-300 group-hover:translate-x-1 group-hover:scale-110 transform">→</span>
+                      {/* <span className="transition-all duration-300">{t("learnMore")}</span>
+                      <span className="ml-2 transition-all duration-300 group-hover:translate-x-1 group-hover:scale-110 transform">→</span> */}
                     </a>
                   </Card>
                 </div>

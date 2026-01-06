@@ -29,16 +29,24 @@ export function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 md:gap-5">
-              <Button className="bg-[#228C22] hover:bg-[#1a6b1a] text-white rounded-xl md:rounded-lg h-12 md:h-12 px-6 sm:px-8 flex items-center justify-center gap-2 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98]">
+              <Button
+                onClick={() =>
+                  window.open(
+                    "https://play.google.com/store/apps/details?id=com.fuelup.operator.fuelup_operator",
+                    "_blank"
+                  )
+                }
+                className="bg-[#228C22] hover:bg-[#1a6b1a] text-white rounded-xl md:rounded-lg h-12 md:h-12 px-6 sm:px-8 flex items-center justify-center gap-2 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98]"
+              >
                 <MessageCircle size={20} />
                 <span className="font-medium tracking-wide">{t("buttonPrimary")}</span>
               </Button>
-              <Button
+              {/* <Button
                 className="border border-[#4a4a4a]/30 bg-white text-[#4a4a4a] hover:bg-gray-50/80 rounded-xl md:rounded-lg h-12 md:h-12 px-6 flex items-center justify-center gap-2 transition-all duration-300 hover:border-[#4a4a4a]/50 hover:scale-[1.02] active:scale-[0.98]"
               >
                 <span className="font-medium tracking-wide">{t("buttonSecondary")}</span>
                 <ArrowRight size={20} />
-              </Button>
+              </Button> */}
             </div>
           </div>
 

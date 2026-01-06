@@ -137,6 +137,12 @@ export function Footer() {
                 <button
                   key={idx}
                   className="w-2/3 px-4 py-2.5 rounded-lg bg-transparent border-2 border-white transition-all duration-300 flex items-center gap-3 hover:bg-white/10"
+                  onClick={() =>
+                    window.open(
+                      "https://play.google.com/store/apps/details?id=com.fuelup.operator.fuelup_operator",
+                      "_blank"
+                    )
+                  }
                 >
                   <Image
                     src={product.iconSrc}
@@ -168,7 +174,7 @@ export function Footer() {
             {t("copyright")} • <span className="text-[#00b341]">Fuelup</span>
           </p>
 
-          <div className="flex gap-5 items-center">
+          {/* <div className="flex gap-5 items-center">
             {socialIcons.map((social, idx) => {
               const Icon = social.icon
               return (
@@ -182,7 +188,7 @@ export function Footer() {
                 </a>
               )
             })}
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

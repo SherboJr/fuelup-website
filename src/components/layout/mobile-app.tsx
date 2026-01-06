@@ -3,13 +3,13 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Download } from "lucide-react"
 import { useTranslations } from "next-intl"
-import { useLocale } from "next-intl"
+// import { useLocale } from "next-intl"
 import Image from "next/image"
 
 export function MobileApp() {
   const t = useTranslations("mobileApp")
-  const locale = useLocale()
-  const isArabic = locale === "ar"
+  // const locale = useLocale()
+  // const isArabic = locale === "ar"
 
   return (
     <section className="w-full py-12 md:py-24 ">      
@@ -30,14 +30,21 @@ export function MobileApp() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
-              <Button className="bg-[#228C22] hover:bg-[#1a6b1a] text-white rounded-lg h-12 px-6 sm:px-8 flex items-center gap-2 transition-all duration-200 shadow-md hover:shadow-lg">
+              <Button
+                onClick={() =>
+                  window.open(
+                    "https://play.google.com/store/apps/details?id=com.fuelup.operator.fuelup_operator",
+                    "_blank"
+                  )
+                } 
+                className="bg-[#228C22] hover:bg-[#1a6b1a] text-white rounded-lg h-12 px-6 sm:px-8 flex items-center gap-2 transition-all duration-200 shadow-md hover:shadow-lg">
                 <Download size={18} />
                 {t("buttonPrimary")}
               </Button>
-              <Button className="border border-[#4a4a4a] bg-white text-[#4a4a4a] hover:bg-gray-50 rounded-lg h-12 px-6 flex items-center gap-2">
+              {/* <Button className="border border-[#4a4a4a] bg-white text-[#4a4a4a] hover:bg-gray-50 rounded-lg h-12 px-6 flex items-center gap-2">
                 {t("buttonSecondary")}
                 <ArrowRight size={18} />
-              </Button>
+              </Button> */}
             </div>
           </div>
 

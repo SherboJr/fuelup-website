@@ -34,6 +34,13 @@ export function FAQ() {
     },
   ]
 
+    const scrollToSection = (id: string) => {
+    const element = document.getElementById(id)
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
   return (
     <section id="faq" className="w-full py-12 md:py-16 lg:py-20 px-4 md:px-6 ">
       <div className="mx-auto max-w-3xl">
@@ -91,7 +98,9 @@ export function FAQ() {
               <p className="text-sm sm:text-base text-muted-foreground mb-4">{t("stillHaveQuestionsSubtitle")}</p>
 
               {/* Button */}
-              <Button className="bg-[#00b341] hover:bg-[#00a038] text-white font-semibold gap-2 rounded-lg">
+              <Button 
+                onClick={() => scrollToSection("contact")}
+                className="bg-[#00b341] hover:bg-[#00a038] text-white font-semibold gap-2 rounded-lg">
                 <MessageCircle className="w-4 h-4" />
                 {t("getInTouch")}
                 {isArabic ? "" : <ArrowRight className="w-4 h-4 ml-2" />}

@@ -146,9 +146,7 @@ export function Features() {
                     ))}
                   </ul>
 
-                  <Button className="bg-[#00b341] hover:bg-[#00992f] text-white font-semibold px-8 py-3 rounded-lg transition-all">
-                    {t("buttonText")}
-                  </Button>
+
                 </div>
 
                 {/* Image Section with Frame and Pattern */}
